@@ -113,3 +113,10 @@ li a:hover {
 .services h4{
     color: #473bf0;
 }
+
+.services-text p{
+    margin: 0 25%;
+    line-height: 20px;
+    font-size: 14px;
+    padding: 20px;
+}
