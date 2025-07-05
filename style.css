@@ -33,6 +33,10 @@ ul li a {
     font-weight: 600;
 }
 
+li a:hover{
+color:#473bf0 ;
+}
+
 .nav-btn {
     background-color: #473bf0;
     color: white;
