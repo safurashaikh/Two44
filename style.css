@@ -120,3 +120,10 @@ li a:hover {
     font-size: 14px;
     padding: 20px;
 }
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
