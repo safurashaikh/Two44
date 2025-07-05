@@ -85,3 +85,9 @@ color:#473bf0 ;
     font-weight: 500px;
    margin: 10px;
 }
+
+.banner-btn:hover{
+       color: #473bf0;
+       transform: translate(0, -5px)
+}
+
