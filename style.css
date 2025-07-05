@@ -127,3 +127,28 @@ li a:hover {
     align-items: center;
     margin: 50px;
 }
+
+.row i {
+    color: #473bf0;
+    font-size: 50px;
+}
+
+.card {
+    margin: 25px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(87, 87, 87, .23);
+}
+
+.card p {
+    line-height: 30px;
+    font-size: 14px;
+    padding: 20px;
+    color: #888;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
