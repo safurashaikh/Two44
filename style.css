@@ -49,6 +49,10 @@ color:#473bf0 ;
     font-weight: 600;
 }
 
+.nav-btn:hover{
+    background-color:#5b8fc4 ;
+    transform: translate(0, -5px)
+}
 .banner {
     background-color: #473bf0;
     padding: 80px;
@@ -69,7 +73,6 @@ color:#473bf0 ;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .banner-btn {
