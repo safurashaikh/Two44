@@ -157,3 +157,8 @@ li a:hover {
     color: #473bf0;
     cursor: pointer;
 }
+
+.card a:hover {
+    color: #473bf0;
+    transform: scale(2);
+}
