@@ -103,14 +103,14 @@ li a:hover {
 
 }
 
-.services,.clients{
+.services,.clients,.testimonials {
     margin-top: 35px;
     margin-bottom: 40px;
     text-align: center;
     line-height: 40px;
 }
 
-.services h4,.clients h4{
+.services h4,.clients h4, .testimonials h4 {
     color: #473bf0;
 }
 
