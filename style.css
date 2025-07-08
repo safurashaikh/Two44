@@ -254,4 +254,18 @@ li a:hover {
 
 .achievement{
     background-color: #473bf0;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.achievement .col {
+    text-align: center;
+    margin: 0 65px;
+}
+.col h3{
+    font-size: 45px;
+}
+.col p{
+    margin-top: 10px;
 }
