@@ -234,5 +234,16 @@ li a:hover {
 .left-section, .right-section{
     width: 50%;
     margin: 50px;
+    text-align: center;
+}
+
+.left-section-title{
+    color: #473bf0;
+     line-height: 50px;
+}
+
+.left-section h2{
+    font-size: 45px;
+    line-height: 50px;
 }
 
