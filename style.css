@@ -193,3 +193,6 @@ li a:hover {
     }
 }
 
+.testimonials .row .card {
+    border: 5px solid black;
+}
