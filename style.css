@@ -330,3 +330,10 @@ footer {
     font-size: 15px;
 
 }
+ .footer-bottom{
+    display: flex;
+    justify-content: center;
+    background-color: #473bf0;
+    color: white;
+    padding: 30px;
+ }
