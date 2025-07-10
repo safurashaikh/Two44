@@ -99,3 +99,14 @@ li a:hover {
     cursor: pointer;
 
 }
+
+.aboutus{
+    padding-top: 35px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #f5f7fa;
+}
+
+.aboutus h4 {
+    color: #473bf0;
+}
