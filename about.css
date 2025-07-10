@@ -138,9 +138,52 @@ li a:hover {
     align-items: center;
 }
 
+.chooseus .left img{
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    border-radius: 7px;
+}
 
 .chooseus .right{
     padding: 0 130px 0 30px;
+}
+
+.chooseus .right ul{
+    display: flex;
+    flex-direction: column;
+}
+.chooseus .right ul li{
+    display: flex;
+    }
+.chooseus .right ul li .number{
+    background-color: #473bf0;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 43px;
+    min-width: 43px;
+    max-height: 43px;
+    min-height: 43px;
+    position: absolute;
+}
+
+.chooseus .right .content{
+    padding-left: 70px;
+    text-align: left;
+}
+
+.content h3{
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.content p{
+    font-size: 17px;
+    line-height: 20px;
 }
 
 
