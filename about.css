@@ -91,3 +91,11 @@ li a:hover {
     font-weight: 500px;
     margin: 10px;
 }
+
+.banner-btn:hover {
+    background-color: black;
+    color: white;
+    transform: translate(0, -5px);
+    cursor: pointer;
+
+}
