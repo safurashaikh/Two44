@@ -186,4 +186,11 @@ li a:hover {
     line-height: 20px;
 }
 
+.chooseus .right ul li:hover .number{
+    border: 2px solid #473bf0;
+    border-color: #473bf0;
+    color: #473bf0;
+    background-color: #fff;
+}
+
 
