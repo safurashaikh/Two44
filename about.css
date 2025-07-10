@@ -100,14 +100,14 @@ li a:hover {
 
 }
 
-.aboutus{
+.aboutus, .chooseus {
     padding-top: 35px;
     text-align: center;
     line-height: 40px;
     background-color: #f5f7fa;
 }
 
-.aboutus h4 {
+.aboutus h4, .chooseus h4  {
     color: #473bf0;
 }
 
