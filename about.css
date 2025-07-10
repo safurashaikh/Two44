@@ -59,7 +59,7 @@ li a:hover {
 }
 
 .banner {
-     margin-top: 100px;
+    margin-top: 100px;
     padding: 50px;
     line-height: 80px;
     background: linear-gradient(rgba(5, 2, 57, 0.6), rgba(5, 2, 57, 0.6)),
@@ -67,4 +67,9 @@ li a:hover {
     background-size: cover;
     color: white;
     text-align: center;
+}
+
+.banner-title {
+    font-size: 50px;
+    font-weight: 800;
 }
