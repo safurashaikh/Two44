@@ -132,3 +132,10 @@ li a:hover {
     flex-direction: column;
 }
 
+.chooseus .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
