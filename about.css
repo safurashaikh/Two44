@@ -126,3 +126,9 @@ li a:hover {
     display: flex;
 }
 
+.chooseus .col{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
