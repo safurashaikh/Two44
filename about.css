@@ -206,3 +206,10 @@ li a:hover {
     text-align: center;
     line-height: 40px;
 }
+
+.services-text p{
+    margin: 0 29%;
+    line-height: 25px;
+    font-size: 14px;
+    padding: 20px;
+}
