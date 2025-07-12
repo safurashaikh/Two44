@@ -122,7 +122,7 @@ li a:hover {
     color: #473bf0;
 }
 
-.aboutus-text p {
+.aboutus-text p, .global-expertise-text p {
     margin: 0 29%;
     line-height: 24px;
     font-size: 14px;
