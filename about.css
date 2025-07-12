@@ -213,7 +213,7 @@ li a:hover {
     line-height: 40px;
 }
 
-.services-text p {
+.services-text p, .clients-text p   {
     margin: 0 29%;
     line-height: 25px;
     font-size: 14px;
