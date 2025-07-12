@@ -94,7 +94,7 @@ li a:hover {
     margin: 10px;
 }
 
-.banner-btn{
+.banner-btn:hover{
     background-color: black;
     color: white;
     transform: translate(0, -5px);
@@ -213,3 +213,10 @@ li a:hover {
     font-size: 14px;
     padding: 20px;
 }
+
+.services-cards .row {
+    display: flex;
+    margin: 50px;
+    text-align: left;
+}
+
