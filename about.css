@@ -118,7 +118,7 @@ li a:hover {
 .aboutus h4,
 .chooseus h4,
 .services h4,
-.global-expertise h4 {
+.global-expertise h4, .clients h4 {
     color: #473bf0;
 }
 
@@ -206,7 +206,7 @@ li a:hover {
     background-color: #fff;
 }
 
-.services {
+.services, .clients   {
     margin-top: 35px;
     margin-bottom: 40px;
     text-align: center;
