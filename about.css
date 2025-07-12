@@ -82,7 +82,7 @@ li a:hover {
     line-height: 25px;
 }
 
-.banner-btn{
+.banner-btn, .services-btn {
     background-color: #473bf0;
     color: white;
     border-radius: 10px;
@@ -94,7 +94,7 @@ li a:hover {
     margin: 10px;
 }
 
-.banner-btn:hover{
+.banner-btn, .services-btn:hover{
     background-color: black;
     color: white;
     transform: translate(0, -5px);
@@ -219,4 +219,28 @@ li a:hover {
     margin: 50px;
     text-align: left;
 }
+.services-cards .card {
+    margin: 25px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(87, 87, 87, .23);
+}
+.services-cards .card .number {
+    color: #473bf0;
+    font-size: 50px;
+    font-weight: 800;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #473bf0;
+    -webkit-text-fill-color: white;
+}
+.services-cards .card h4 {
+    color: black;
+    padding-top: 20px
+}
 
+.services-cards p {
+    line-height: 30px;
+    font-size: 14px;
+    padding-top: 20px;
+    color: #888;
+}
