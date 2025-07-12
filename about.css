@@ -291,3 +291,16 @@ li a:hover {
         transform: translateX(-50%);
     }
 }
+footer {
+    background-color: #081828;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+    padding: 50px;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
