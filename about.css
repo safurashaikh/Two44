@@ -40,9 +40,11 @@ ul li a {
 li a:hover {
     color: #473bf0;
 }
-.navbar a.active{
+
+.navbar a.active {
     color: #473bf0;
 }
+
 .nav-btn {
     background-color: #473bf0;
     color: white;
@@ -82,7 +84,8 @@ li a:hover {
     line-height: 25px;
 }
 
-.banner-btn, .services-btn {
+.banner-btn,
+.services-btn {
     background-color: #473bf0;
     color: white;
     border-radius: 10px;
@@ -94,7 +97,8 @@ li a:hover {
     margin: 10px;
 }
 
-.banner-btn, .services-btn:hover{
+.banner-btn,
+.services-btn:hover {
     background-color: black;
     color: white;
     transform: translate(0, -5px);
@@ -103,7 +107,8 @@ li a:hover {
 }
 
 .aboutus,
-.chooseus{
+.chooseus,
+.global-expertise {
     padding-top: 35px;
     text-align: center;
     line-height: 40px;
@@ -112,12 +117,12 @@ li a:hover {
 
 .aboutus h4,
 .chooseus h4,
-.services h4
-{
+.services h4,
+.global-expertise h4 {
     color: #473bf0;
 }
 
-.aboutus-text p{
+.aboutus-text p {
     margin: 0 29%;
     line-height: 24px;
     font-size: 14px;
@@ -200,14 +205,15 @@ li a:hover {
     color: #473bf0;
     background-color: #fff;
 }
-.services{
+
+.services {
     margin-top: 35px;
     margin-bottom: 40px;
     text-align: center;
     line-height: 40px;
 }
 
-.services-text p{
+.services-text p {
     margin: 0 29%;
     line-height: 25px;
     font-size: 14px;
@@ -219,12 +225,14 @@ li a:hover {
     margin: 50px;
     text-align: left;
 }
+
 .services-cards .card {
     margin: 25px;
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 0 50px rgba(87, 87, 87, .23);
 }
+
 .services-cards .card .number {
     color: #473bf0;
     font-size: 50px;
@@ -233,6 +241,7 @@ li a:hover {
     -webkit-text-stroke-color: #473bf0;
     -webkit-text-fill-color: white;
 }
+
 .services-cards .card h4 {
     color: black;
     padding-top: 20px
@@ -250,6 +259,6 @@ li a:hover {
     -webkit-text-fill-color: #473bf0;
 }
 
-.services-cards .card h4:hover{
+.services-cards .card h4:hover {
     color: #473bf0;
 }
