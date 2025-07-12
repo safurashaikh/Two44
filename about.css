@@ -304,3 +304,44 @@ footer {
     color: white;
     font-size: 20px;
 }
+.footer-top-btn {
+    background-color: #473bf0;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    height: 70px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer-top-btn:hover {
+    background-color: white;
+    color: #473bf0;
+    transform: translate(0, -5px);
+    cursor: pointer;
+}
+
+.footer-middle .row {
+    display: flex;
+}
+
+.footer-middle .col {
+    margin-left: 30px;
+    color: white;
+}
+
+.footer-middle .logo img {
+    width: 160px;
+    margin-bottom: 20px;
+}
+
+.footer-middle ul {
+    flex-direction: column;
+    margin: 20px 30px;
+}
+
+.footer-middle ul li {
+    font-size: 15px;
+
+}
