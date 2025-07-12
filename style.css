@@ -44,6 +44,10 @@ li a:hover {
     color: #473bf0;
 }
 
+.navbar a.active {
+    color: #473bf0;
+}
+
 .nav-btn {
     background-color: #473bf0;
     color: white;
@@ -339,14 +343,13 @@ footer {
     padding: 30px;
 }
 
-.footer-social-media ul{
-   display: flex;
-   justify-content: center;
-   margin-top: 20px;
+.footer-social-media ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
-.footer-social-media i{
+
+.footer-social-media i {
     color: white;
     font-size: 20px;
 }
-
-
