@@ -40,7 +40,9 @@ ul li a {
 li a:hover {
     color: #473bf0;
 }
-
+.navbar a.active{
+    color: #473bf0;
+}
 .nav-btn {
     background-color: #473bf0;
     color: white;
@@ -80,7 +82,7 @@ li a:hover {
     line-height: 25px;
 }
 
-.banner-btn {
+.banner-btn{
     background-color: #473bf0;
     color: white;
     border-radius: 10px;
@@ -92,7 +94,7 @@ li a:hover {
     margin: 10px;
 }
 
-.banner-btn:hover {
+.banner-btn{
     background-color: black;
     color: white;
     transform: translate(0, -5px);
@@ -100,63 +102,69 @@ li a:hover {
 
 }
 
-.aboutus, .chooseus {
+.aboutus,
+.chooseus{
     padding-top: 35px;
     text-align: center;
     line-height: 40px;
     background-color: #f5f7fa;
 }
 
-.aboutus h4, .chooseus h4  {
+.aboutus h4,
+.chooseus h4,
+.services h4
+{
     color: #473bf0;
 }
 
-.aboutus-text p {
+.aboutus-text p{
     margin: 0 29%;
     line-height: 24px;
     font-size: 14px;
     padding: 25px;
 }
 
-.chooseus-text{
+.chooseus-text {
     padding: 40px;
 }
 
-.chooseus .row{
+.chooseus .row {
     display: flex;
 }
 
-.chooseus .col{
+.chooseus .col {
     width: 50%;
     display: flex;
     flex-direction: column;
 }
 
-.chooseus .left{
+.chooseus .left {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.chooseus .left img{
+.chooseus .left img {
     position: relative;
     top: 50%;
     bottom: 50%;
     border-radius: 7px;
 }
 
-.chooseus .right{
+.chooseus .right {
     padding: 0 130px 0 30px;
 }
 
-.chooseus .right ul{
+.chooseus .right ul {
     display: flex;
     flex-direction: column;
 }
-.chooseus .right ul li{
+
+.chooseus .right ul li {
     display: flex;
-    }
-.chooseus .right ul li .number{
+}
+
+.chooseus .right ul li .number {
     background-color: #473bf0;
     color: white;
     border-radius: 50%;
@@ -170,27 +178,31 @@ li a:hover {
     position: absolute;
 }
 
-.chooseus .right .content{
+.chooseus .right .content {
     padding-left: 70px;
     text-align: left;
 }
 
-.content h3{
+.content h3 {
     font-size: 19px;
     font-weight: 600;
     margin-bottom: 20px;
 }
 
-.content p{
+.content p {
     font-size: 17px;
     line-height: 20px;
 }
 
-.chooseus .right ul li:hover .number{
+.chooseus .right ul li:hover .number {
     border: 2px solid #473bf0;
     border-color: #473bf0;
     color: #473bf0;
     background-color: #fff;
 }
-
-
+.services{
+    margin-top: 35px;
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: 40px;
+}
