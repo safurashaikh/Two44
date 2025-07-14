@@ -97,7 +97,7 @@ li a:hover {
     margin: 10px;
 }
 
-.banner-btn,
+.banner-btn:hover,
 .services-btn:hover {
     background-color: black;
     color: white;
