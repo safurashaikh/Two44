@@ -99,3 +99,33 @@ li a:hover {
     cursor: pointer;
 
 }
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.card {
+    margin: 25px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(87, 87, 87, .23);
+}
+
+.card p {
+    line-height: 30px;
+    font-size: 14px;
+    padding: 20px;
+    color: #888;
+}
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.card h3:hover {
+    color: #473bf0;
+    cursor: pointer;
+}
