@@ -61,3 +61,13 @@ li a:hover {
     transform: translate(0, -5px);
     cursor: pointer;
 }
+.banner {
+    margin-top: 100px;
+    padding: 50px;
+    line-height: 80px;
+    background: linear-gradient(rgba(5, 2, 57, 0.6), rgba(5, 2, 57, 0.6)),
+        url('/image/background-image');
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
