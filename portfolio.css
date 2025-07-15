@@ -212,3 +212,19 @@ footer {
 .footer-middle ul li {
     font-size: 15px;
 }
+.footer-bottom {
+    text-align: center;
+    background-color: #473bf0;
+    color: white;
+    padding: 30px;
+}
+
+.footer-social-media ul{
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+}
+.footer-social-media i{
+    color: white;
+    font-size: 20px;
+}
