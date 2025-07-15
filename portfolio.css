@@ -99,3 +99,13 @@ li a:hover {
     cursor: pointer;
 
 }
+.portfolio{
+    padding-top: 35px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #f5f7fa;
+}
+
+.portfolio h4{
+    color: #473bf0;
+}
