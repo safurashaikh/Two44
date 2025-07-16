@@ -112,3 +112,13 @@ li a:hover {
     cursor: pointer;
 }
 
+.features {
+    margin-top: 35px;
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.features h4 {
+    color: #473bf0;
+}
