@@ -87,3 +87,16 @@ li a:hover {
     font-weight: 300;
     margin-bottom: 20px;
 }
+.banner-button{
+    text-align: center;
+}
+
+.banner-button .btn{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    background-color: #473bf0;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
