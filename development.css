@@ -112,14 +112,14 @@ li a:hover {
     cursor: pointer;
 }
 
-.features {
+.features, .clients{
     margin-top: 35px;
     margin-bottom: 40px;
     text-align: center;
     line-height: 40px;
 }
 
-.features h4 {
+.features h4, .clients h4 {
     color: #473bf0;
 }
 .features-text p {
