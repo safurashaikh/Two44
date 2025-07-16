@@ -132,5 +132,36 @@ li a:hover {
 .row {
     display: flex;
     justify-content: center;
-    margin: 50px;
+    margin:0px 50px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    margin: 25px;
+    text-align: center;
+    padding: 70px 40px;
+    box-shadow: 0 0 50px rgba(87, 87, 87, .23);
+    border-radius: 10px;
+}
+.card i{
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    background-color: #473bf0;
+    color: #fff;
+    display: inline-block; 
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.card h3 {
+    font-size: 30px;
+}
+.card p{
+    margin-top: 20px;
+    line-height: 30px;
 }
