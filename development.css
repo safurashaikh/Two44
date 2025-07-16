@@ -122,3 +122,9 @@ li a:hover {
 .features h4 {
     color: #473bf0;
 }
+.features-text p {
+    margin: 0 30%;
+    line-height: 24px;
+    font-size: 14px;
+    padding: 20px;
+}
