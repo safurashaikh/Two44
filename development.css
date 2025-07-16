@@ -173,3 +173,31 @@ li a:hover {
 .card h3:hover{
     color: #473bf0;
 }
+.carousel {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.logos-slide {
+    display: flex;
+    width: calc(250px * 10);
+    /* Adjust if you add more logos */
+    animation: scroll 20s linear infinite;
+}
+
+.logos-slide img {
+    height: 80px;
+    margin: 0 25px;
+    transition: filter 0.3s;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
