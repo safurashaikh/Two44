@@ -262,4 +262,8 @@ li a:hover {
     font-size: 13px;
     line-height: 30px;
 }
-
+.toolkit-card .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 30px;
+}
