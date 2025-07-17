@@ -115,7 +115,8 @@ li a:hover {
 .features,
 .clients,
 .we-offer,
-.toolkit {
+.toolkit,
+.choose-us {
     margin-top: 35px;
     margin-bottom: 40px;
     text-align: center;
@@ -130,7 +131,8 @@ li a:hover {
 .features-text p,
 .clients-text p,
 .we-offer-text p,
-.toolkit-text p {
+.toolkit-text p,
+.choose-us-text p {
     margin: 0 30%;
     line-height: 24px;
     font-size: 14px;
