@@ -414,3 +414,27 @@ footer {
     transform: translate(0, -5px);
     cursor: pointer;
 }
+.footer-middle .row {
+    display: flex;
+}
+
+.footer-middle .col {
+    margin-left: 30px;
+    color: white;
+}
+
+.footer-middle .logo img {
+    width: 160px;
+    margin-bottom: 20px;
+}
+
+.footer-middle ul {
+    flex-direction: column;
+    margin: 20px 30px;
+    align-items: flex-start;
+}
+
+.footer-middle ul li {
+    font-size: 15px;
+    text-align: left;
+}
