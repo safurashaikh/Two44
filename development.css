@@ -378,7 +378,39 @@ li a:hover {
     background-color: #2e2da0;
     color: white;
     padding: 40px;
+    margin-bottom: 0px;
 }
 .container i{
     font-size: 40px;
+}
+footer {
+    background-color: #081828;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+    padding: 50px;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.footer-top-btn {
+    background-color: #473bf0;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    height: 70px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer-top-btn:hover {
+    background-color: white;
+    color: #473bf0;
+    transform: translate(0, -5px);
+    cursor: pointer;
 }
