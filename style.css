@@ -329,12 +329,14 @@ footer {
 .footer-middle ul {
     flex-direction: column;
     margin: 20px 30px;
+    align-items: flex-start;
 }
 
 .footer-middle ul li {
     font-size: 15px;
-
+    text-align: left;
 }
+
 
 .footer-bottom {
     text-align: center;
