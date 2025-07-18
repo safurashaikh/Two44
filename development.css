@@ -117,7 +117,7 @@ li a:hover {
 .we-offer,
 .toolkit,
 .choose-us,
-.pricing {
+.pricing, .container{
     margin-top: 35px;
     margin-bottom: 40px;
     text-align: center;
@@ -327,7 +327,7 @@ li a:hover {
 
 }
 
-.choose-cards .card i {
+.choose-cards .card i{
     font-size: 40px;
     height: 60px;
     width: 60px;
@@ -374,4 +374,11 @@ li a:hover {
     text-align: left;
     line-height: 0%;
 }
-
+.container{
+    background-color: #2e2da0;
+    color: white;
+    padding: 40px;
+}
+.container i{
+    font-size: 40px;
+}
