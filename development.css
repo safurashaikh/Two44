@@ -134,24 +134,27 @@ li a:hover {
 .clients-text p,
 .we-offer-text p,
 .toolkit-text p,
-.choose-us-text p{
+.choose-us-text p,
+.pricing-text p 
+{
     margin: 0 30%;
     line-height: 24px;
     font-size: 14px;
     padding: 20px;
 }
 
-.features-cards .row{
+.features-cards .row, .pricing-cards .row{
     display: flex;
     margin: 50px;
+    flex-wrap: wrap;
 }
 
-.features-cards .col{
+.features-cards .col, .pricing-cards .col{
     display: flex;
     flex-direction: column;
 }
 
-.features-cards .card {
+.features-cards .card, .pricing-cards .card {
     margin: 25px;
     padding: 70px 40px;
     box-shadow: 0 0 50px rgba(87, 87, 87, .23);
@@ -326,8 +329,6 @@ li a:hover {
 
 .choose-cards .card i {
     font-size: 40px;
-    /* left: 0;
-    top: 11px; */
     height: 60px;
     width: 60px;
     line-height: 60px;
@@ -345,5 +346,32 @@ li a:hover {
     margin-top: 15px;
     font-size: 16px;
     line-height: 30px;
+}
+.pricing-cards .price {
+    color: #333;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.pricing-cards .title {
+    margin: 30px 0;
+    padding-bottom: 30px;
+    border-bottom: 1px dashed #eee;
+}
+
+.pricing-cards .list {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.pricing-cards li {
+    font-size: 14px;
+    list-style-type: disc;
+    text-align: left;
+    line-height: 0%;
 }
 
