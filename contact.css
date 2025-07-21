@@ -77,14 +77,16 @@ li a:hover {
     display: flex;
     padding: 50px;
 }
+
 .content .col {
     flex-direction: column;
 }
 
 .form {
-    margin-right: 50px;
+    margin-right: 70px;
     width: 45vw;
 }
+
 .form h3,
 .info h3 {
     font-size: 20px;
@@ -93,12 +95,14 @@ li a:hover {
     margin-bottom: 30px;
     padding-bottom: 20px;
 }
+
 .form-row {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     margin-bottom: 15px;
 }
+
 .form-row .card {
     display: flex;
     flex-direction: column;
@@ -113,6 +117,7 @@ li a:hover {
     line-height: 55px;
     padding: 0 20px;
 }
+
 .msg-card textarea {
 
     height: 180px;
@@ -122,7 +127,8 @@ li a:hover {
     font-weight: 400;
     border-radius: 5px;
 }
-             .form-btn button {
+
+.form-btn button {
     border-radius: 10px;
     border: none;
     width: 150px;
@@ -133,5 +139,3 @@ li a:hover {
     background-color: #473bf0;
     color: white;
 }
-
-
