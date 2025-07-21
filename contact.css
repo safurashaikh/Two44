@@ -139,3 +139,27 @@ li a:hover {
     background-color: #473bf0;
     color: white;
 }
+.info-card{
+    display: flex;
+    margin: 40px;
+}
+.info-card i{
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    background-color: #473bf0;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+}
+.info-card .details{
+    padding:0px 50px;
+    font-size: 13px;
+    margin-left: 40px;
+    font-weight: 500;
+}
+.details .desc{
+    margin-top: 10px;
+}
