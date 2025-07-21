@@ -122,4 +122,16 @@ li a:hover {
     font-weight: 400;
     border-radius: 5px;
 }
+             .form-btn button {
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 500px;
+    margin: 10px;
+    background-color: #473bf0;
+    color: white;
+}
+
 
