@@ -99,3 +99,17 @@ li a:hover {
     gap: 30px;
     margin-bottom: 15px;
 }
+.form-row .card {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    border: 1px solid #e6e2f5;
+    color: #333;
+    font-weight: 400;
+    border-radius: 5px;
+    height: 55px;
+    line-height: 55px;
+    padding: 0 20px;
+}
