@@ -77,4 +77,19 @@ li a:hover {
     display: flex;
     padding: 50px;
 }
+.content .col {
+    flex-direction: column;
+}
 
+.form {
+    margin-right: 50px;
+    width: 45vw;
+}
+.form h3,
+.info h3 {
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 1px dashed #473bf0;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
